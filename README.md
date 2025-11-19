@@ -1,16 +1,30 @@
-# React + Vite
+# Restaurant Menu Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React + Vite project displaying a restaurant menu using reusable components and list rendering.
 
-Currently, two official plugins are available:
+## Components
+- **MenuItem**: Reusable component showing dish name, price, description, category, and a vegetarian badge.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Links
+- **GitHub Repository:** https://github.com/Najahhhh/restaurant_card/
+- **Live Website:** https://restaurant-card-one.vercel.app/
 
-## React Compiler
+## Run Locally
+1. Clone the repo  
+   `git clone <your-repo-url>`
+2. Install dependencies  
+   `npm install`
+3. Start server  
+   `npm run dev`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Project Features
+- Reusable MenuItem component  
+- Menu lists rendered using `map()`  
+- Vegetarian badge using conditional rendering  
+- Responsive and clean UI  
+- Deployed using Vercel/Netlify
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Submission
+- Remove `node_modules`
+- Zip the project folder
+- Submit with README containing GitHub + deployment links
